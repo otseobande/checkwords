@@ -1,10 +1,7 @@
 import unittest
-from checkwords import check, get_possible_words
+from get_possible_words import get_possible_words
 
 class TestCheckWordsFunctions(unittest.TestCase):
-  def test_check(self):
-    self.assertTrue(check('soup'))
-
   def test_get_possible_words(self):
     possible_words = get_possible_words('flag')
     words = ['fa', 'la', 'al', 'ga', 'alf', 'fag', 'lag', 'gal', 'flag']
