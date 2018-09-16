@@ -1,0 +1,2 @@
+nltk==3.3
+typecheck-decorator==1.3
