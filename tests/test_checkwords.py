@@ -1,5 +1,5 @@
 import unittest
-from get_possible_words import get_possible_words
+from checkwords import get_possible_words
 
 class TestCheckWordsFunctions(unittest.TestCase):
   def test_get_possible_words(self):
